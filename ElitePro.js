@@ -9118,7 +9118,7 @@ case 'menu':
 let timestampe = speed()
 let latensie = speed() - timestampe
 let elitemenuoh = `┏━━━━━━━━━━━━━━━━❍
-┃ *ᴇʟɪᴛᴇ-ᴘʀᴏ-ᴠɪ ʙᴏᴛ ᴍᴇɴᴜ*
+┃ *${botname.toUpperCase()} MENU*
 ┗━━━━━━━━━━━━━❍
 ┏━━━━━━━━━━━━━━━❍
 ┣❍ *ʙᴏᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ:*
