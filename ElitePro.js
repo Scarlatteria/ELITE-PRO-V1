@@ -9377,7 +9377,7 @@ ${readmore}┏━━━━━━━━━━━━━━━❍
 │𖥟╾ Group-id
 │𖥟╾ Pair [session-id]
 ┗━━━━━━━━━━━━━━━❍
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇʟɪᴛᴇ-ᴘʀᴏ-ᴛᴇᴄʜ`; 
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ Scarlatte`; 
 const reactions = ["✅", "🔥", "😎", "👌", "😏", "🌟", "⚡", "💥", "🎉", "🧘", "🥺", "😉", "🔔", "🤫"];
 const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
 await EliteProTech.sendMessage(m.chat, {
