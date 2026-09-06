@@ -2540,10 +2540,10 @@ case 'img': {
                             hasMediaAttachment: true
                         },
                         body: {
-                            text: `🔎 *${res.data.query}*\n${item.title || ''}`
+                            text: `*${res.data.query}*\n${item.title || ''}`
                         },
                         footer: {
-                            text: '> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇʟɪᴛᴇ-ᴘʀᴏ-ᴛᴇᴄʜ©*'
+                            text: 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇʟɪᴛᴇ-ᴘʀᴏ-ᴛᴇᴄʜ'
                         },
                         nativeFlowMessage: {
                             buttons: [
@@ -2552,13 +2552,6 @@ case 'img': {
                                     buttonParamsJson: JSON.stringify({
                                         display_text: 'Open',
                                         url: item.image
-                                    })
-                                },
-                                {
-                                    name: 'cta_copy',
-                                    buttonParamsJson: JSON.stringify({
-                                        display_text: 'Copy URL',
-                                        copy_code: item.image
                                     })
                                 }
                             ],
