@@ -5,14 +5,14 @@ const chalk = require('chalk');
 // Contact details
 global.sessionid = process.env.SESSION_ID || '';
 global.dbSite = process.env.DB_SITE || '';
-global.ytname = process.env.YT_NAME || "YT: @EliteProTechs";
-global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
+global.ytname = process.env.YT_NAME || "YT: -";
+global.socialm = process.env.SOCIAL_M || "GitHub: Scarlatteria";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
 // Creator details
 global.prefix = process.env.PREFIX || '.';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
-global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
+global.ownername = process.env.OWNER_NAME || 'Scarlatte';
+global.botname = process.env.BOT_NAME || 'Columbina Bot';
 
 // Settings: true=enable false=disable
 global.autoRecording = process.env.AUTO_RECORDING === 'true';
@@ -29,10 +29,10 @@ global.autoOffline = process.env.AUTO_OFFLINE === 'true';
 
 // Sticker details
 global.packname = process.env.PACKNAME || 'Sticker By';
-global.author = process.env.AUTHOR || 'EliteProTech\n\nContact: +2347047504860';
+global.author = process.env.AUTHOR || 'Scarlatte\n\nContact: +6285788390294';
 // Default settings 2
-global.wm = process.env.WM || "Youtube @EliteProTechs";
-global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g';
+global.wm = process.env.WM || "Youtube -";
+global.link = process.env.LINK || '-';
 
 // Reply messages
 global.mess = {
