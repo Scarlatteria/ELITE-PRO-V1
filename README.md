@@ -47,6 +47,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 ## DEPLOYMENT METHODS
 - Add your session ID to SESSION_ID in the .env or config.js file.
 - Edit the .env file according to your preferences.
+- Optionally set BOT_MODE to `public` or `private` (default: `private`). When set, it takes precedence over the saved settings on every restart. In `private` mode only the owner gets replies.
 
 ---
 
