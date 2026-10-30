@@ -10,6 +10,10 @@
       "description": "Put your SESSION_ID here.",
       "value": ""
     },
+    "BOT_MODE": {
+      "description": "Bot mode: public (everyone can use the bot) or private (owner only).",
+      "value": "private"
+    },
     "PREFIX": {
       "description": "Bot command prefix (example: ., !, #)",
       "value": "."

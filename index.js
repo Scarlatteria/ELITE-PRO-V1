@@ -68,7 +68,8 @@ try {
         if (savedSettings[key] !== undefined) global[key] = savedSettings[key]
     }
 } catch {}
-global.botMode = savedSettings.mode || 'private'
+global.botMode = String(process.env.BOT_MODE || savedSettings.mode || 'private').toLowerCase()
+if (global.botMode !== 'public' && global.botMode !== 'private') global.botMode = 'private'
 let userChatCleanupInterval
 let sessionCleanupInterval
 
@@ -81,7 +82,7 @@ function applyBotSettings(settings) {
     for (const key of ['prefix', 'autoviewstatus', 'autolikestatus', 'autolikestatusEmoji', 'autoread', 'autoTyping', 'autoRecording', 'autorecordtype', 'autobio', 'autoreact']) {
         if (settings[key] !== undefined) global[key] = settings[key]
     }
-    if (settings.mode !== undefined) global.botMode = settings.mode
+    if (settings.mode !== undefined && !process.env.BOT_MODE) global.botMode = settings.mode
 }
 
 function readJson(file, fallback) {
